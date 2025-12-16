@@ -38,13 +38,13 @@
       "sources": [
         {
           "type": "archive",
-          "url": "https://github.com/nikelaz/ctldash/archive/refs/tags/v1.0.0.tar.gz",
-          "sha256": "ee34b48b64afcd0242e012e1165f51ca50260a09da3c7a51a5b3614592c9ef0e"
+          "url": "https://github.com/nikelaz/ctldash/archive/refs/tags/v1.1.0.tar.gz",
+          "sha256": "13147881781725ec921c0ef27129538c2b0cb9e88b5a9a228a9ee9d593f488e0"
         },
         {
           "type": "archive",
-          "url": "https://github.com/nikelaz/ctldash/releases/download/v1.0.0/vendor.tar",
-          "sha256": "521ac39919c42b1afc69aa78894788f98bc5dfe7e261b51c8f57e2ea0ac8b3f3",
+          "url": "https://github.com/nikelaz/ctldash/releases/download/v1.1.0/vendor.tar",
+          "sha256": "4dfdceac974f1df8453f7f1c0dbb480b61413773b4221839e99b6a8bd35b2c27",
           "dest": "vendor"
         },
         {
