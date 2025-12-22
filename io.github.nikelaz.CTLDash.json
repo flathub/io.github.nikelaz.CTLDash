@@ -16,7 +16,8 @@
     "--device=dri",
     "--talk-name=org.freedesktop.Flatpak",
     "--talk-name=org.freedesktop.systemd1",
-    "--system-talk-name=org.freedesktop.systemd1"
+    "--system-talk-name=org.freedesktop.systemd1",
+    "--filesystem=xdg-config/cosmic:ro"
   ],
   "build-options": {
     "append-path": "/usr/lib/sdk/rust-stable/bin",
@@ -38,13 +39,13 @@
       "sources": [
         {
           "type": "archive",
-          "url": "https://github.com/nikelaz/ctldash/archive/refs/tags/v1.1.1.tar.gz",
-          "sha256": "aa7c62648f7160a1dba740f60b83d4e07d8a649dc37111a11de7c2e655df9bbe"
+          "url": "https://github.com/nikelaz/ctldash/archive/refs/tags/v1.1.2.tar.gz",
+          "sha256": "71e7ea45cbc85706340f370498a28f0e0c4e92c19fccba73982ff8387e08f0b6"
         },
         {
           "type": "archive",
-          "url": "https://github.com/nikelaz/ctldash/releases/download/v1.1.1/vendor.tar",
-          "sha256": "1f48fefafd31f49b10670e3ceaaf2d27635974100de911562a61933472fcea6e",
+          "url": "https://github.com/nikelaz/ctldash/releases/download/v1.1.2/vendor.tar",
+          "sha256": "b96e9b964367939b6f0c665e84b9bca3ba374ef88b5e6907d231b77df95179fd",
           "dest": "vendor"
         },
         {
