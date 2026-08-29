@@ -1,6 +1,11 @@
 [source.crates-io]
 replace-with = "vendored-sources"
 
+[source."git+https://github.com/iced-rs/cryoglyph.git?rev=e429a025df36ab8145708acb309080ae3deec17a"]
+git = "https://github.com/iced-rs/cryoglyph.git"
+rev = "e429a025df36ab8145708acb309080ae3deec17a"
+replace-with = "vendored-sources"
+
 [source."git+https://github.com/jackpot51/rust-atomicwrites"]
 git = "https://github.com/jackpot51/rust-atomicwrites"
 replace-with = "vendored-sources"
